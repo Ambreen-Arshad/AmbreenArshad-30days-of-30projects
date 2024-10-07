@@ -81,7 +81,7 @@ export default function BirthdayWish() {
 
   return (
     // Main container
-    <div className="min-h-screen bg-white flex items-center justify-center p-4">
+    <div className="min-h-screen bg-purple-950 flex items-center justify-center p-4">
       {/* Animated wrapper for the card */}
       <motion.div
         initial={{ scale: 0.9, opacity: 0 }}
@@ -93,7 +93,7 @@ export default function BirthdayWish() {
         <Card className="mx-auto overflow-hidden transition-all duration-300 ease-in-out hover:shadow-xl border-2 border-black">
           {/* Card header with birthday message */}
           <CardHeader className="text-center">
-            <CardTitle className="text-4xl font-bold text-yellow-500">Happy Birthday!</CardTitle>
+            <CardTitle className="text-4xl font-bold text-blue-700">Happy Birthday!</CardTitle>
             <CardDescription className="text-2xl font-semibold text-orange-600">Ambreen Arshad</CardDescription>
             <p className="text-lg text-green-500">3rd February</p>
           </CardHeader>
@@ -158,7 +158,7 @@ export default function BirthdayWish() {
           {/* Card footer with celebrate button */}
           <CardFooter className="flex justify-center">
             <Button 
-              className="bg-black text-white hover:bg-gray-800 transition-all duration-300"
+              className="bg-black text-white bg-pink-700 hover:bg-purple-600 transition-all duration-300"
               onClick={celebrate}
               disabled={celebrating}
             >
